@@ -15,6 +15,8 @@ const TwoUseStates = () => {
       >
         Click Here
       </button>
+
+      {showText && <p>Show me!</p>}
     </div>
   )
 }
