@@ -4,6 +4,7 @@ import TextOnChange from './TextOnChange';
 import TwoUseStates from './TwoUseStates';
 import CountingWithReducer from './CountingWithReducer';
 import EffectTutorial from './EffectTutorial';
+import RefTutorial from './RefTutorial';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TwoUseStates />
       <CountingWithReducer />
       <EffectTutorial />
+      <RefTutorial />
     </div>
   );
 }
