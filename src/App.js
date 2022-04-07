@@ -6,6 +6,7 @@ import CountingWithReducer from './CountingWithReducer';
 import EffectTutorial from './EffectTutorial';
 import RefTutorial from './RefTutorial';
 import LayoutEffectTutorial from './UseLayoutEffect';
+import ContextTutorial from './ContextTutorial';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <EffectTutorial />
       <RefTutorial />
       <LayoutEffectTutorial />
+      <ContextTutorial />
     </div>
   );
 }
