@@ -5,6 +5,7 @@ import TwoUseStates from './TwoUseStates';
 import CountingWithReducer from './CountingWithReducer';
 import EffectTutorial from './EffectTutorial';
 import RefTutorial from './RefTutorial';
+import LayoutEffectTutorial from './UseLayoutEffect';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CountingWithReducer />
       <EffectTutorial />
       <RefTutorial />
+      <LayoutEffectTutorial />
     </div>
   );
 }
